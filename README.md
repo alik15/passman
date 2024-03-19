@@ -1,5 +1,5 @@
 # passman
-This is a weird password manager(maybe??) that my friend and I came up with and I am now trying to implement in perl(to be decided)
+This is a weird password manager(maybe) that allows for secure password "generation" but not storage
 Here is the initial idea:
 You have a password you use everywhere. That is a massive problem, despite IT staff trying to remedy this problem in offices with regular emails, it still causes thousands/millions of money in damages.
 This is a way to fix that. You get to use the same password everywhere with a caviate. It will be used as a seed to generate a password using encryption at runtime.
@@ -7,7 +7,7 @@ The public key will be different for each website.
 
 
 
-A single .txt file will be kept in a public storage solution like github, docker, google drive, 
+A single .txt file will be kept in a public storage solution like github, docker, google drive(should allow for multiple storage solutions at the sametime to avoid loss of passwords)
 # Usage example
 
 
@@ -38,6 +38,7 @@ you can register new websites and emails with the register function
     - firefox password manager
     - bitwarden
 
+* use asymmetric encryption so that if someone gets their hands on your password, they wont be able to get your private key
 
 # Some Caveats
 This solution outputs the same password for the same website and username, if someone finds out your password you will have to change your encryption code. (This can also be added to settings)

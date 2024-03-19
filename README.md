@@ -1,5 +1,5 @@
-# password_manager
-This is a weird password manager that my friend and I came up with and I am now trying to implement in perl(to be decided)
+# passman
+This is a weird password manager(maybe??) that my friend and I came up with and I am now trying to implement in perl(to be decided)
 Here is the initial idea:
 You have a password you use everywhere. That is a massive problem, despite IT staff trying to remedy this problem in offices with regular emails, it still causes thousands/millions of money in damages.
 This is a way to fix that. You get to use the same password everywhere with a caviate. It will be used as a seed to generate a password using encryption at runtime.

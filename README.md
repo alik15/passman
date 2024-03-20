@@ -30,6 +30,7 @@ you can register new websites and emails with the register function
 * the cli app when running will not show the password or the length of your password when you are typing it ( as is done in linux sudo)
 * a docker container can be downloaded which can be run and it can serve on a port on a website that does this 
   the encryption happens on the client side
+* can also add 2FA for using the tool? maybe 
 
 * second private key
 * different encryption for different websites or even usernames
@@ -42,3 +43,4 @@ you can register new websites and emails with the register function
 
 # Some Caveats
 This solution outputs the same password for the same website and username, if someone finds out your password you will have to change your encryption code. (This can also be added to settings)
+Do note that while this is slightly better than using the same password everywhere, it still relys on a single point of faliure, the master password and if that gets out then you wont be able to keep it safe
